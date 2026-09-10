@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Online Shopping</title>
+</head>
+
+<body>
+    
+        <h1>SHOPPING</h1>
+
+        <form action="New1.jsp" method="post">
+
+            Customer Name:
+            <input type="text" name="customer_name" required>
+            <br><br>
+
+            Email:
+            <input type="email" name="email" required>
+            <br><br>
+
+            Product:
+            <select name="product" required>
+                <option value="">Select Product</option>
+                <option value="dress">DRESS</option>
+                <option value="shoe">SHOE</option>
+                <option value="cosmetics">COSMETICS</option>
+                <option value="perfume">PERFUME.</option>
+            </select>
+            <br><br>
+
+            Quantity:
+            <input type="number" name="quantity" min="1" required>
+            <br><br>
+
+            Price:
+            <input type="number" name="price" step="0.01" required>
+            <br><br>
+
+            <input type="submit" value="Place Order">
+
+        </form>
+   
+</body>
+</html>
